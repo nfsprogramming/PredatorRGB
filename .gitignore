@@ -1,0 +1,65 @@
+# PredatorRGB .gitignore
+
+# Build outputs & executables
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+*.tar.gz
+*.msi
+*.iso
+
+# Packaging and Staging Folders
+build_staging/
+bundle_publish/
+PredatorRGB_App/
+Release_Output/
+temp/
+temp_openrgb/
+_IS_TMP/
+
+# .NET / Visual Studio
+bin/
+obj/
+publish/
+**/publish/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Flutter & Dart
+forgesense_ui/build/
+forgesense_ui/.dart_tool/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Python & Scripts
+__pycache__/
+*.py[cod]
+
+# Logs & Diagnostics
+*.log
+*.dmp
+wmi_output.txt
+
+# Secrets, Certificates & Environment
+*.pfx
+*.p12
+*.snk
+*.key
+*.keystore
+.env
+.env.*
+!.env.example
+
+# OS & Editor metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
